@@ -1,0 +1,18 @@
+{
+  "name": "xiaoan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "xiaoan"
+  ],
+  "author": "liubo",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-views": "^6.1.4"
+  }
+}
