@@ -14,5 +14,8 @@
   "dependencies": {
     "koa": "^2.5.1",
     "koa-views": "^6.1.4"
+  },
+  "devDependencies": {
+    "log4js": "^2.8.0"
   }
 }
