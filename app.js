@@ -6,6 +6,10 @@ app.use(views(__dirname + '/views'), {
   extension: 'html'
 })
 
+app.use(async (ctx) => {
+  await ctx.render('index')
+})
+
 console.log('staring')
 
 app.listen(80)
