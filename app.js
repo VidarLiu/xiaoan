@@ -13,6 +13,11 @@ app.use(async (ctx) => {
   await ctx.render('index')
 })
 
+log4js.configure({
+  appenders: { cheese: { type: 'file', filename: 'cheese.log' } },
+  categories: { default: { appenders: ['cheese'], level: 'error' } }
+})
+
 logger.info('staring', new Date())
 
 app.listen(8000)
